@@ -1,6 +1,6 @@
 # find-tweets
 It can makes you not to miss the Tweets that you are interested in. 
-It posts the Tweets to the your slack channel, every 15minutes.  
+It posts the Tweets to the your Slack channel, every 15minutes.  
 You can use this library on AWS Lambda(Runtime: Python3.6).  
 
 To search the words which you registered to the csv file in every 15 minutes, you can get the Tweets about them.
@@ -24,6 +24,12 @@ Also, you must get the URL of the Slack Channel and set it as `DEFAULT_SLACK_CHA
 Applying `Outgoing Webhooks` to the Channel, you can get it.  
 https://api.slack.com/custom-integrations/outgoing-webhooks
 
+## Register the words to csv file that you are interested in
+You can register any number of the words to csv file.  
+Also, you can register the number of which the mean is I explained above.
+The word and the number are separated by comma.  
+Ther is one set of the word and the number in one row.  
+ 
 ## Create the rule on AWS CloudWatch
 Creating the rule on AWS CloudWatch that kicks the code on AWS Lambda in every 15minutes, it is complete.
 https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Rule.html

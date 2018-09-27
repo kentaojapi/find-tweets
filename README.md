@@ -1,5 +1,5 @@
 # find-tweets
-It  makes you not to miss the Tweets that you are interested in. 
+It will makes you not to miss the Tweets that you are interested in.  
 It posts the Tweets to the your Slack channel, every 15minutes.  
 You can use this library on AWS Lambda(Runtime: Python3.6).  
 

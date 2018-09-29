@@ -20,7 +20,7 @@ You must set your `TWITTER_CONSUMER_KEY` , `TWITTER_CONSUMER_SECERET`, `TWITTER_
 Check below the URL about how to get these Twitter Keys.  
 https://developer.twitter.com/en/docs/basics/authentication/guides/access-tokens.html  
 
-Also, you must get the URL of the Slack Channel and set it as `DEFAULT_SLACK_CHANNEL_URL`.  
+Also, you must get the URL of the Slack channel and set it as `DEFAULT_SLACK_CHANNEL_URL`.  
 Applying `Outgoing Webhooks` to the Channel, you can get it.  
 https://api.slack.com/custom-integrations/outgoing-webhooks
 

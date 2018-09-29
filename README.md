@@ -28,10 +28,10 @@ Applying `Outgoing Webhooks` to the Channel, you can get it.
 https://api.slack.com/custom-integrations/outgoing-webhooks
 
 ## Register the words to csv file that you are interested in
-You can any words to csv file. Also, you can register the number next to the word, only the Tweets that was retweeted more than that number of times in the last 15 minutes is acquired. The word and the number are separated by comma. There is a set of the word and the number in a row.  
+You can register any words to csv file. Also, you can register the number next to the word, only the Tweets that was retweeted more than that number of times in the last 15 minutes is acquired. The word and the number are separated by comma. There is a set of the word and the number in a row.  
 
 <img width="98" alt="2018-09-29 11 15 04" src="https://user-images.githubusercontent.com/8345543/46239814-fffe2c80-c3d8-11e8-9e43-2ed3f8c0c560.png">
 
 ## Create the rule on AWS CloudWatch
-Creating the rule on AWS CloudWatch that kicks the code on AWS Lambda in every 15minutes, it is complete.
+Creating the rule that kicks the Lambda code on AWS CloudWatch in every 15 minutes, it is complete.
 https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Rule.html
